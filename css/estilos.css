@@ -1,0 +1,45 @@
+body {
+     text-align: center;
+    width: 680px;
+    margin: 0 auto;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    background-color: #E2C07F;
+    background-image: url("../images/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+/* H1: color de fondo, color del texto y borde lateral de otro color */
+h1 {
+    background-color: #C8C9CC;
+    color: #FFFFFF;
+    border-left: 12px solid #F2553C;
+
+}
+
+/* IMG: borde negro redondeado, sombreado y
+   todas las imagenes con el mismo tamano */
+img {
+     width: 520px;
+    height: 410px;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #333333;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+/* LI: borde alrededor y todos en la misma linea */
+li {
+     border: 1px solid #000000;
+    display: inline;
+
+}
+
